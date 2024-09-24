@@ -6,95 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>JaoGames</title>
+    <title>CSJÃO</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>JaoGames</h1>
+            <img src="./images/logo_cs.png" alt="Logo do Counter-Strike 2">
             <nav>
                 <ul>
                     <li>
-                        <a href="#about">Sobre a Loja</a>
+                        <a href="#maps">Mapas</a>
                     </li>
                     <li>
-                        <a href="#contact">Contato</a>
+                        <a href="#guns">Armas</a>
+                    </li>
+                    <li>
+                        <a href="#uti">Utilitários</a>
+                    </li>
+                    <li>
+                        <a href="#econo">Economia</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="about">
+    <section id="banner">
         <div class="container">
-            <img src="./images/loja.jpg" alt="Fachada da loja JaoGames" class="store-front" />
             <div>
-                <h2>Sobre a loja</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, neque placeat amet facilis distinctio
-                    quasi temporibus tempore voluptatum provident magnam maxime laborum ab eaque. Quaerat assumenda illo
-                    laborum ex voluptate!</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut similique minima eius aliquam cum ipsum
-                    pariatur quaerat obcaecati exercitationem dolore incidunt, quo non error culpa dicta ut aperiam
-                    impedit fugiat!</p>
-                <ul class="brands-list">
-                    <li> <img src="./images/nintendo.png" alt="Nintendo"> </li>
-                    <li> <img src="./images/xbox.png" alt="Xbox"> </li>
-                    <li> <img src="./images/playstation.png" alt="Playstation"> </li>
-                </ul>
+                <h3>Aprenda a Jogar</h3>
+                <h2>Counter <br> Strike 2</h2>
+                <p id="descricao">Desvende as estratégias e domine o<br> jogo mais apaixonante da década.</p>
+                <button class="custom-button">Saiba mais</button>
             </div>
+            <img src="./images/glock.jpg" alt="Glock do Counter-Strike 2" class="store-front" />
         </div>
     </section>
+    <section class="container" id="desc">
+        <h3>Confira tudo sobre o <br> <span class="destaque">Counter-Strike 2</span> agora <br> em um só lugar!</h3>
+        <p>Nosso site foi criado para oferecer a você uma experiência completa,<br> reunindo todas as informações sobre
+            os mapas, armas, utilitários e muito mais.<br> Mantenha-se atualizado com as estratégias, dicas e novidades
+            para <br> melhorar suas habilidades e dominar o jogo.</p>
+    </section>
+    <section class="container" id="maps">
+        <div>
+            <h3>Conheça cada<br>um dos mapas</h3>
+            <p id="descricao">Use nosso site para se familiarizar com os mapas que você já conhece.<br><br>Descubra novas táticas e estratégias para explorar mapas além do que você está acostumado, ampliando seu domínio no CS2!</p>
+        </div>  
+        <img src="./images/map.jpg" alt="Meio do mapa de_inferno CS2" class="store-front" />
+    </section>
+    <section class="container" id="guns">
+        <div>
+            <h3>Domine o Arsenal</h3>
+            <p id="descricao">O arsenal do CS2 substitui o armamento clássico com novas mecânicas e ajustes, aprimorando a experiência de combate.<br><br>Nossas análises e guias irão transformar a maneira como você escolhe e utiliza as armas, ajudando você a dominar cada situação no jogo!</p>
+        </div>  
+        <img src="./images/guns.jpg" alt="Duas armas coloridas" class="store-front" />
+    </section>
+    <section class="container" id="uti">
+        <div>
+            <h3>Eficácia com<br>utilitários</h3>
+            <p id="descricao">O CS2 oferece uma variedade de utilitários, que podem mudar o rumo de uma partida.<br><br>Use esses utilitários para controlar áreas estratégicas e surpreender seus adversários, aprimorando suas táticas e aumentando suas chances de vitória!</p>
+        </div>  
+        <img src="./images/granade.jpg" alt="Granada de fumaça do CS2" class="store-front" />
+    </section>
+    <section class="container" id="econo">
+        <div>
+            <h3>Enteda o sistema<br>econômico</h3>
+            <p id="descricao">Nosso site oferece guias para você aprender a gerenciar seu dinheiro de forma eficiente, comprando as armas e utilitários certos em cada rodada.<br><br>Domine a economia do jogo e aumente suas chances de vitória com estratégias inteligentes!</p>
+        </div>  
+        <img src="./images/money.jpg" alt="Notas de dinheiro" class="store-front" />
+    </section>
     <section class="container" id="contact">
-        <h2>Contato</h2>
         <div class="contact-methods">
             <div>
+            <img src="./images/logo_cs.png" alt="Logo do Counter-Strike 2" id="logo2">
+            </div>
+            <div>
                 <h3>Fale conosco</h3>
-                <form>
-                    <input type="text" placeholder="Seu nome" required />
-                    <input type="email" placeholder="Seu email" required />
-                    <input type="tel" placeholder="Seu telefone (opcional)">
-                    <textarea placeholder="Sua mensagem" required></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
-            <div>
-                <h3>Nos acompanhe</h3>
-                <ul class="social-links">
-                    <li>
-                        <a href="#" title="Siga-nos no Instagram">
-                            <img src="./images/instagram.png" alt="Logo do Instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="Siga-nos no Facebool">
-                            <img src="./images/facebook.png" alt="Logo do facebook">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="Visite nosso canal do YouTube">
-                            <img src="./images/youtube.png" alt="Logo do YouTube">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Venha até nós</h3>
                 <p>
-                    Rua JavaScript n° 369, Vila HTML - São Paulo - SP
+                    (55) 5555-5555
                 </p>
+                <p>
+                    Rua Rush B, n° 1337 - De_Inferno - RS
+                </p>
+                <p>
+                    pinatudo@gmail.com
+                </p>
+                <div id="social-media">
+                <img src="./images/instagram_logo.png" alt="Logo do Instagram">
+                <img src="./images/youtube_logo.png" alt="Logo do YouTube">
+                <img src="./images/gc_logo.png" alt="Logo da Gamersclub">
+                </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container">
-        <p>
-            &copy; JaoGames - Todos os direitos reservados - 2024
-        </p>
+            <p>
+                &copy; JaoGames - Todos os direitos reservados - 2024
+            </p>
         </div>
     </footer>
 </body>
+
 </html>

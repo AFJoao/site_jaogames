@@ -2,30 +2,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #101728;;
+}
+
+.custom-button {
+    background: linear-gradient(90deg, #8A2BE2, #FF4500);
+    border: none; 
+    color: white; 
+    padding: 24px 48px; 
+    font-size: 18px; 
+    font-family: 'Bungee', cursive; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: background 0.3s ease; 
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.custom-button:hover {
+    background: linear-gradient(90deg, #FF4500, #8A2BE2); /* Inverte as cores no hover */
 }
 
 header {
-    padding: 16px 0;
-    background-color: #182C61;
+    padding: 32px 0;
     color: white;
 }
 
-head h1,
+header img{
+    height: 70px;
+}
+
 section h2,
-section h3,
-form button{
+section h3 {
     font-family: 'Bungee', cursive;
     font-weight: normal;
+    color: white;
+}
+
+section p{
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: white;
+    margin-right: 60px;
+}
+
+section h3{
+    margin-top: 32px;
+    font-size: 38px;
+    color: #9440fd;
+}
+
+section h2{
+    font-size: 72px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+section p .descricao{
+    font-size: 20px;
 }
 
 header nav li {
+    font-family: 'Roboto';
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 header nav li a {
-    margin-left: 16px;
+    font-family: 'Roboto';
+    margin-left: 16px;  
+    margin-right: 22px;
     color: white;
     text-decoration: none;
 }
@@ -43,25 +93,20 @@ section .container {
     justify-content: space-between;
 }
 
-body, input, textarea{  
-    font-family: 'Roboto', sans-serif;
+section img{
+    margin-top: 32px;
+    height: 350px;
+    border-radius: 10%;
+    border-color: white;
 }
 
 section .container{
     align-items: flex-start;
 }
 
-.brands-list img{
-    height: 24px;
-}
-
-.brands-list li{
-    display: inline;
-    margin-right: 8px;
-}
-
 section {
     padding: 24px 0;
+    margin-bottom: 95px;
 }
 
 section h2{
@@ -69,7 +114,7 @@ section h2{
 }
 
 section {
-    color: #182C61;
+    color: #101728;
 }
 
 section p{
@@ -80,22 +125,8 @@ section p{
     margin-right: 22px;
 }
 
-.social-links img{
-    height: 24px;
-
-}
-
-.social-links li{
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a{
-    text-decoration: none;
-}
-
-#contact .container {
-    display: block;
+#logo2{
+    height: 100px;
 }
 
 .contact-methods {
@@ -103,41 +134,84 @@ section p{
     justify-content: space-between;
 }
 
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
+#desc {
+    text-align: center;
 }
 
-form textarea{
-    resize: none;
-    height: 180px;
+#desc h3{
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+#desc p{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 16,5px;
+    margin-bottom: 175px;
+}
+
+#maps,
+#guns,
+#uti,
+#econo{
+    font-size: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+#maps div,
+#guns div,
+#uti div,
+#econo div{
+    margin-right: 45px;
+}
+
+#maps img {
+    width: 620px 0,
+}
+
+#maps h3{
+    color: #38b6ff;
+    margin-bottom: 60px;
+}
+
+#guns h3{
+    color: #9340ff;
+    margin-bottom: 60px;
+}
+
+#uti h3{
+    color: #c43eb5;
+    margin-bottom: 60px;
+}
+
+#econo h3{
+    color: #72ffe1;
+    margin-bottom: 60px;
+}
+
+.destaque{
+    color: #9440fd
 }
 
 section h3{
     margin-bottom: 16px;
 }
 
-form button{
-    background-color: #182C61;
-    color: #ffff;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover{
-    background-color: #8496c9;
-}
-
-input:focus, textarea:focus{
-    outline-color: purple;
+#social-media img{
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 footer{
-    background-color: #182C61;
+    display: flex;
+    justify-content: center;
+    background-color: #101728;
     color: #ffff;
     padding: 16px 0;
 }
