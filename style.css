@@ -19,8 +19,26 @@
     margin-top: 20px;
 }
 
+.custom-button2 {
+    background: linear-gradient(90deg, #9440fd, #72ffe1);
+    border: none; 
+    color: white; 
+    padding: 24px 48px; 
+    font-size: 18px; 
+    font-family: 'Bungee', cursive; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: background 0.3s ease; 
+    display: inline-block;
+    margin-top: 20px;
+}
+
 .custom-button:hover {
     background: linear-gradient(90deg, #FF4500, #8A2BE2); /* Inverte as cores no hover */
+}
+
+.custom-button2:hover {
+    background: linear-gradient(90deg, #72ffe1, #9440fd); /* Inverte as cores no hover */
 }
 
 header {
@@ -33,7 +51,9 @@ header img{
 }
 
 section h2,
-section h3 {
+section h3,
+form input,
+form textarea {
     font-family: 'Bungee', cursive;
     font-weight: normal;
     color: white;
@@ -111,10 +131,6 @@ section {
 
 section h2{
     margin-bottom: 16px;
-}
-
-section {
-    color: #101728;
 }
 
 section p{
@@ -206,6 +222,26 @@ section h3{
     height: 40px;
     margin-right: 20px;
     margin-bottom: 50px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+form input,
+form textarea,
+form .custom-button2{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-color: white;
+    color: white;
+    background-color: #101728;
+}
+
+form textarea{
+    resize: none;
 }
 
 footer{
